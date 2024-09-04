@@ -3,6 +3,7 @@ package entitys;
 
 public class Creature extends Entity {
 
+
     public Creature() {
         super();
     }
