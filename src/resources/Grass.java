@@ -7,6 +7,6 @@ public class Grass extends Entity {
     public int coordinates;
 
     public Grass(Coordinates coordinates, Entity entity) {
-        super(coordinates, entity);
+        super();
     }
 }

@@ -7,6 +7,6 @@ public class Rock extends Entity {
 
 
     public Rock(Coordinates coordinates, Entity entity) {
-        super(coordinates, entity);
+        super();
     }
 }
