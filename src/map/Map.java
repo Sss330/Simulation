@@ -1,17 +1,19 @@
+package map;
+
 import java.util.HashMap;
 
 public class Map {
     private final HashMap <Coordinates, Entity> map = new HashMap<>();
 
-    public void placeEntity(Coordinates coordinates,Entity entity){
+    public void placeEntity(Coordinates coordinates, Entity entity){
          entity.coordinates = coordinates;
          map.put(coordinates,entity);
     }
-    public void deleteEntity (Coordinates coordinates,Entity entity) {
+    public void deleteEntity (Coordinates coordinates, Entity entity) {
         map.remove(coordinates,entity);
     }
 
-    public boolean isEmpty (Coordinates coordinates,Entity entity){
+    public boolean isEmpty (Coordinates coordinates, Entity entity){
         map.isEmpty();
 
         return true;
