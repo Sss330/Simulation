@@ -19,9 +19,9 @@ public class Simulation {
     }
 
     public void gameLoop (){
-   /* while (true) {
+    while (true) {
 
-        }*/
+        }
     }
 
 }
