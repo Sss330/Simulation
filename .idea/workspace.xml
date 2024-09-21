@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5a8b822b-c148-442b-8c97-b2a36f6a3764" name="Changes" comment="Initial commit">
+      <change afterPath="$PROJECT_DIR$/src/actions/MoveEntites.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/actions/spawnActions/GrassSpawn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/actions/spawnActions/HerbivoreSpawn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/actions/spawnActions/PredatorSpawn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/actions/spawnActions/RockSpawn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/actions/spawnActions/TreeSpawn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/map/ConsoleMapRender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/simulation/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/actions/Actions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/Actions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/actions/Simulation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/simulation/Simulation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entitys/Creature.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entitys/Creature.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entitys/Entity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entitys/Entity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entitys/Herbivore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entitys/Herbivore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entitys/Predator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entitys/Predator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/map/Coordinates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/map/Coordinates.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/map/Map.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/map/Map.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/map/printMap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/Grass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entitys/staticObjects/resources/Grass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/staticObjects/Rock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entitys/staticObjects/Rock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/staticObjects/Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entitys/staticObjects/Tree.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {}
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Sss330/simulation.git&quot;,
+    &quot;accountId&quot;: &quot;851910b2-6545-4603-99ea-39cccd8cc436&quot;
+  }
+}</component>
+  <component name="GradleModuleStateConfig" initialized="true" />
+  <component name="ProblemsViewState">
+    <option name="autoscrollToSource" value="true" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2kWQ49P43q1NXEvSzXBbVfwUSzi" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/chess-main&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/podvo/IdeaProjects/simulation/src/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5a8b822b-c148-442b-8c97-b2a36f6a3764" name="Changes" comment="" />
+      <created>1723396661019</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1723396661019</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1724198379038</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1724198379038</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1725148212557</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1725148212558</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1725471142951</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1725471142951</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1725471503342</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1725471503342</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1725471625483</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1725471625483</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+  </component>
+</project>
