@@ -1,10 +1,7 @@
 package entitys;
 
-public class Entity {
-   int coordinates;
-   String name;
+import map.Coordinates;
 
-   public Entity (){
+public abstract class Entity {
 
-   }
 }

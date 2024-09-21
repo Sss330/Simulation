@@ -1,32 +1,30 @@
 package map;
 
+import entitys.Entity;
+
 import java.util.HashMap;
 
+
 public class Map {
-    private final HashMap <Coordinates, Entity> map = new HashMap<>();
+    public static final int MAP_WIDTH = 30;
+    public static final int MAP_HEIGHT = 20;
 
-    public void placeEntity(Coordinates coordinates, Entity entity){
-         entity.coordinates = coordinates;
-         map.put(coordinates,entity);
+    public final HashMap<Coordinates, Entity> map = new HashMap<>();
+
+    public void setEntity(Coordinates coordinates, Entity entity) {
+        map.put(coordinates, entity);
     }
-    public void deleteEntity (Coordinates coordinates, Entity entity) {
-        map.remove(coordinates,entity);
-    }
-
-    public boolean isEmpty (Coordinates coordinates, Entity entity){
-        map.isEmpty();
-
-        return true;
+    public Entity getEntity(Coordinates coordinates) {
+        return map.get(coordinates);
     }
 
-    public static class Entity {
-        //Корневой абстрактный класс для всех существ и объектов существующих в симуляции.
-         String name;
-         Coordinates coordinates;
-
-        public Entity(Coordinates coordinates, String name) {
-            this.coordinates = coordinates;
-            this.name = name;
-        }
+    public void deleteEntity(Coordinates coordinates, Entity entity) {
+        map.remove(coordinates, entity);
+    }
+    public boolean isCellEmpty(Coordinates coordinates) {
+        return map.isEmpty();
+    }
+    public int getMapSize() {
+        return MAP_WIDTH * MAP_HEIGHT;
     }
 }
