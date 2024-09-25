@@ -6,7 +6,7 @@ import java.util.HashMap;
 
 
 public class Map {
-    public static final int MAP_WIDTH = 30;
+    public static final int MAP_WIDTH = 40;
     public static final int MAP_HEIGHT = 20;
 
     public final HashMap<Coordinates, Entity> map = new HashMap<>();
@@ -21,9 +21,11 @@ public class Map {
     public void deleteEntity(Coordinates coordinates, Entity entity) {
         map.remove(coordinates, entity);
     }
+
     public boolean isCellEmpty(Coordinates coordinates) {
-        return map.isEmpty();
+        return !map.containsKey(coordinates);
     }
+
     public int getMapSize() {
         return MAP_WIDTH * MAP_HEIGHT;
     }

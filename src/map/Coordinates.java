@@ -6,8 +6,8 @@ public class Coordinates {
 
 
     public Coordinates(Integer x, Integer y) {
-        this.x = 20;
-        this.y = 20;
+        this.x = x;
+        this.y = y;
     }
 
     public Integer getY() {
