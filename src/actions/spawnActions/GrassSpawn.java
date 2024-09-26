@@ -13,8 +13,8 @@ import java.util.Random;
 public class GrassSpawn extends Actions {
     Map map = new Map();
     private final Random random = new Random();
-    private final int mapSize = map.getMapSize();
-    private final int QUANTITY_GRASS = mapSize/20;
+    private final int MAP_SIZE = map.getMapSize();
+    private final int QUANTITY_GRASS = MAP_SIZE/10;
 
 
         public void spawnGrass(Map map, Actions actions) {

@@ -10,8 +10,10 @@ import java.util.Random;
 
 public class RockSpawn extends Actions {
     private final Random random = new Random();
-    private final int QUANTITY_ROCKS = 20;
     Map map = new Map();
+    private final int MAP_SIZE = map.getMapSize();
+    private final int QUANTITY_ROCKS = MAP_SIZE/15;
+
 
 
 

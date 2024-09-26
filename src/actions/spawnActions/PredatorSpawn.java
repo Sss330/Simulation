@@ -10,9 +10,9 @@ import java.util.Random;
 
 public class PredatorSpawn extends Actions {
         private final Random random = new Random();
-        private final int QUANTITY_PREDATOR = 20;
         Map map = new Map();
-
+        private final int MAP_SIZE = map.getMapSize();
+        private final int QUANTITY_PREDATOR = MAP_SIZE/10;
 
 
         public void spawnPredator(Map map, Actions actions) {

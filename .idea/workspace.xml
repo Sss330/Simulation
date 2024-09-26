@@ -5,24 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5a8b822b-c148-442b-8c97-b2a36f6a3764" name="Changes" comment="second commit">
+      <change afterPath="$PROJECT_DIR$/src/searchPath/BreadthFirstSearch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/simulation/actions/spawnActions/GrassSpawn.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/simulation/actions/spawnActions/GrassSpawn.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/simulation/map/Coordinates.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/simulation/map/Coordinates.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/simulation/simulation/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/simulation/simulation/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/actions/Actions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/Actions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/simulation/actions/MoveEntites.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/simulation/actions/spawnActions/HerbivoreSpawn.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/simulation/actions/spawnActions/HerbivoreSpawn.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/simulation/actions/spawnActions/PredatorSpawn.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/simulation/actions/spawnActions/PredatorSpawn.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/simulation/actions/spawnActions/TreeSpawn.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/simulation/actions/spawnActions/TreeSpawn.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/simulation/entitys/Creature.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/simulation/entitys/Creature.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/simulation/entitys/Herbivore.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/simulation/entitys/Herbivore.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/simulation/entitys/Predator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/simulation/entitys/Predator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/simulation/map/Map.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/simulation/map/Map.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/actions/MoveEntites.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/actions/spawnActions/GrassSpawn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/spawnActions/GrassSpawn.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/actions/spawnActions/HerbivoreSpawn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/spawnActions/HerbivoreSpawn.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/actions/spawnActions/PredatorSpawn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/spawnActions/PredatorSpawn.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/actions/spawnActions/RockSpawn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/spawnActions/RockSpawn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/actions/spawnActions/TreeSpawn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/spawnActions/TreeSpawn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entitys/Creature.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entitys/Creature.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entitys/Herbivore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entitys/Herbivore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entitys/Predator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entitys/Predator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/map/ConsoleMapRender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/map/ConsoleMapRender.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/map/Coordinates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/map/Coordinates.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/map/Map.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/map/Map.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/breadthFirstSearch/BreadthFirstSearch.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/simulation/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/simulation/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/simulation/Simulation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/simulation/Simulation.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -175,7 +174,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727191222573</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="second commit">
+      <option name="closed" value="true" />
+      <created>1727286865027</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1727286865027</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

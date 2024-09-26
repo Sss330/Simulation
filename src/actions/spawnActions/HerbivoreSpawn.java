@@ -12,9 +12,10 @@ import map.Map;
 import java.util.Random;
 
 public class HerbivoreSpawn extends Actions {
-    private final Random random = new Random();
-    private final int QUANTITY_HERBIVORE = 20;
     Map map = new Map();
+    private final int MAP_SIZE = map.getMapSize();
+    private final int QUANTITY_HERBIVORE = MAP_SIZE/9;
+
 
 
 
