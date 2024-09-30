@@ -9,6 +9,8 @@ import map.Map;
 import java.util.Random;
 
 public class PredatorSpawn extends Actions {
+
+
         private final Random random = new Random();
         Map map = new Map();
         private final int MAP_SIZE = map.getMapSize();

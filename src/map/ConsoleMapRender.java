@@ -20,7 +20,7 @@ public class ConsoleMapRender extends Actions {
 
     StringBuilder stringBuilder = new StringBuilder();
 
-    // отрисовка карты
+
     public void mapRender(Map map) {
         for (int y = Map.MAP_HEIGHT - 1; y > -1; y--) {
             stringBuilder.setLength(0);
@@ -36,7 +36,7 @@ public class ConsoleMapRender extends Actions {
         }
     }
 
-    // выбор эмоджи
+
     private String selectEmoji(Entity entity) {
 
         if (entity instanceof Herbivore) {
@@ -50,7 +50,7 @@ public class ConsoleMapRender extends Actions {
         } else if (entity instanceof Tree) {
             return TREE;
         }
-        //нужно поменять GROUND на EMPTY
+
         return GROUND;
     }
 }
