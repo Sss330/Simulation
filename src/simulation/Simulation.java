@@ -1,6 +1,7 @@
 package simulation;
 
 import actions.Actions;
+import actions.moveActions.MoveEntitys;
 import actions.spawnActions.*;
 import entitys.Creature;
 import entitys.Entity;
@@ -23,14 +24,29 @@ public class Simulation {
     PredatorSpawn predatorSpawn = new PredatorSpawn();
     TreeSpawn treeSpawn = new TreeSpawn();
     BreadthFirstSearch breadthFirstSearch = new BreadthFirstSearch();
+    MoveEntitys moveEntitys = new MoveEntitys();
 
     public void startGame() {
         spawnEntities();
-        int asd = 5;
-        while (asd > 0) { // Основной цикл игры
-            updateEntities(); // Обновляем состояние существ
-            consoleMapRender.mapRender(map); // Отрисовываем карту
-           asd--;
+
+        int iterations = 100;
+        while (iterations > 0) {
+            updateEntities();
+
+
+            List<Coordinates> creatureCoordinates = getAllCreatureCoordinates();
+
+
+            for (Coordinates coordinates : creatureCoordinates) {
+                Entity entity = map.getEntity(coordinates);
+                if (entity instanceof Creature) {
+                    moveEntitys.moveEntitys(breadthFirstSearch, map, coordinates, (Creature) entity);
+                }
+            }
+
+            consoleMapRender.mapRender(map);
+            System.out.println("\n\n");
+            iterations--;
         }
     }
 
@@ -45,16 +61,16 @@ public class Simulation {
 
     public void updateEntities() {
 
-
     }
 
-    private Coordinates getCoordinatesOfEntity(Entity targetEntity) {
+    private List<Coordinates> getAllCreatureCoordinates() {
+        List<Coordinates> coordinatesList = new ArrayList<>();
         for (Coordinates coordinates : map.map.keySet()) {
             Entity currentEntity = map.getEntity(coordinates);
-            if (currentEntity.equals(targetEntity)) {
-                return coordinates; // Возвращаем координаты найденного объекта
+            if (currentEntity instanceof Creature) {
+                coordinatesList.add(coordinates);
             }
         }
-        return null;
+        return coordinatesList;
     }
 }

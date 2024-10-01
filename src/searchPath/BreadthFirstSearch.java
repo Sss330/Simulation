@@ -18,7 +18,7 @@ public class BreadthFirstSearch {
         queue.offer(startCoordinates);
 
         while (!queue.isEmpty()) {
-            Coordinates currentCoordinate = queue.poll();
+            Coordinates currentCoordinate = queue.poll(); // currentCoordinate - текущие координаты
 
             if (creature.canEat(map, currentCoordinate)) {
                 return recreatePath(currentCoordinate, path);
@@ -57,7 +57,7 @@ public class BreadthFirstSearch {
     }
 
     private boolean canMove(Map map, Coordinates nextCoordinate) {
-        return map.isCellEmpty(nextCoordinate); // Здесь можно добавить дополнительные условия
+        return map.isCellEmpty(nextCoordinate);
     }
 
     private List<Coordinates> recreatePath(Coordinates endCoordinate, HashMap<Coordinates, Coordinates> path) {
