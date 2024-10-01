@@ -31,11 +31,8 @@ public class Simulation {
 
         int iterations = 100;
         while (iterations > 0) {
-            updateEntities();
-
 
             List<Coordinates> creatureCoordinates = getAllCreatureCoordinates();
-
 
             for (Coordinates coordinates : creatureCoordinates) {
                 Entity entity = map.getEntity(coordinates);
@@ -51,17 +48,14 @@ public class Simulation {
     }
 
     public void spawnEntities() {
-        predatorSpawn.spawnPredator(map, actions);
         rockSpawn.spawnRock(map, actions);
         grassSpawn.spawnGrass(map, actions);
-        herbivoreSpawn.spawnHerbivore(map, actions);
         treeSpawn.spawnTree(map, actions);
+        predatorSpawn.spawnPredator(map, actions);
         consoleMapRender.mapRender(map);
     }
 
-    public void updateEntities() {
 
-    }
 
     private List<Coordinates> getAllCreatureCoordinates() {
         List<Coordinates> coordinatesList = new ArrayList<>();
