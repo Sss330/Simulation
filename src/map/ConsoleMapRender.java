@@ -16,7 +16,6 @@ public class ConsoleMapRender extends Actions {
     public static final String GRASS = "🍀 ";
     public static final String ROCK = "🗻 ";
     public static final String TREE = "🌳 ";
-    private static final String EMPTY = " . ";
 
     StringBuilder stringBuilder = new StringBuilder();
 
