@@ -58,6 +58,7 @@ public class Simulation {
 
 
 
+
     private List<Coordinates> getAllCreatureCoordinates() {
         List<Coordinates> coordinatesList = new ArrayList<>();
         for (Coordinates coordinates : map.getKeySet()) {
