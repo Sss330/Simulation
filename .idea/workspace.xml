@@ -5,31 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5a8b822b-c148-442b-8c97-b2a36f6a3764" name="Changes" comment="krios commit">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/simulation/actions/Actions.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/simulation/actions/Actions.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/simulation/actions/moveActions/MoveEntitys.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/simulation/actions/spawnActions/GrassSpawn.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/simulation/actions/spawnActions/HerbivoreSpawn.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/simulation/actions/spawnActions/PredatorSpawn.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/simulation/actions/spawnActions/RockSpawn.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/simulation/actions/spawnActions/TreeSpawn.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/simulation/entitys/Creature.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/simulation/entitys/Entity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/simulation/entitys/Herbivore.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/simulation/entitys/Predator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/simulation/entitys/staticObjects/Rock.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/simulation/entitys/staticObjects/Tree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/simulation/entitys/staticObjects/resources/Grass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/simulation/map/ConsoleMapRender.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/simulation/map/ConsoleMapRender.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/simulation/map/Map.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/simulation/map/Map.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/simulation/searchPath/BreadthFirstSearch.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/simulation/simulation/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/simulation/simulation/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/simulation/simulation/Simulation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/simulation/simulation/Simulation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/actions/move_actions/MoveEntities.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/move_actions/MoveEntities.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entities/Creature.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/Creature.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/map/Map.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/map/Map.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/simulation/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/simulation/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/simulation/Simulation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/simulation/Simulation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/map/ConsoleMapRender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/map/ConsoleMapRender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/search_path/BreadthFirstSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/search_path/BreadthFirstSearch.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,23 +53,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/chess-main&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/podvo/IdeaProjects/simulation/src/Main.java&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "Merging master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "E:/chess-main",
+    "onboarding.tips.debug.path": "C:/Users/podvo/IdeaProjects/simulation/src/Main.java",
+    "settings.editor.selected.configurable": "preferences.keymap"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -246,7 +223,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727832608571</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="krios commit">
+      <option name="closed" value="true" />
+      <created>1727835111585</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1727835111585</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
