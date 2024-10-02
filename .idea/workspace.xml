@@ -4,10 +4,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a8b822b-c148-442b-8c97-b2a36f6a3764" name="Changes" comment="okolo-final commit">
+    <list default="true" id="5a8b822b-c148-442b-8c97-b2a36f6a3764" name="Changes" comment="krios commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/actions/moveActions/MoveEntitys.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/moveActions/MoveEntitys.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/map/ConsoleMapRender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/map/ConsoleMapRender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/simulation/actions/Actions.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/simulation/actions/Actions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/simulation/actions/moveActions/MoveEntitys.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/simulation/actions/spawnActions/GrassSpawn.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/simulation/actions/spawnActions/HerbivoreSpawn.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/simulation/actions/spawnActions/PredatorSpawn.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/simulation/actions/spawnActions/RockSpawn.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/simulation/actions/spawnActions/TreeSpawn.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/simulation/entitys/Creature.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/simulation/entitys/Entity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/simulation/entitys/Herbivore.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/simulation/entitys/Predator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/simulation/entitys/staticObjects/Rock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/simulation/entitys/staticObjects/Tree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/simulation/entitys/staticObjects/resources/Grass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/simulation/map/ConsoleMapRender.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/simulation/map/ConsoleMapRender.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/simulation/map/Map.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/simulation/map/Map.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/simulation/searchPath/BreadthFirstSearch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/simulation/simulation/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/simulation/simulation/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/simulation/simulation/Simulation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/simulation/simulation/Simulation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/actions/move_actions/MoveEntities.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/move_actions/MoveEntities.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entities/Creature.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/Creature.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/map/Map.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/map/Map.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/simulation/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/simulation/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/simulation/Simulation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/simulation/Simulation.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -208,12 +230,38 @@
       <option name="project" value="LOCAL" />
       <updated>1727823186330</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="krios commit">
+      <option name="closed" value="true" />
+      <created>1727832575904</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1727832575904</updated>
+    </task>
+    <task id="LOCAL-00018" summary="krios commit">
+      <option name="closed" value="true" />
+      <created>1727832608571</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1727832608571</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="514edeec-3cb0-4993-b495-66e1965fad1d" value="TOOL_WINDOW" />
+      </map>
+    </option>
     <option name="TAB_STATES">
       <map>
+        <entry key="514edeec-3cb0-4993-b495-66e1965fad1d">
+          <value>
+            <State />
+          </value>
+        </entry>
         <entry key="MAIN">
           <value>
             <State>
@@ -240,7 +288,8 @@
     <MESSAGE value="iojpiuhli" />
     <MESSAGE value="second commit" />
     <MESSAGE value="okolo-final commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="okolo-final commit" />
+    <MESSAGE value="krios commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="krios commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

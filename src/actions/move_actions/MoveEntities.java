@@ -7,7 +7,7 @@ import java.util.List;
 
 public class MoveEntities {
 
-    public void moveEntitys (BreadthFirstSearch breadthFirstSearch, Map map, Coordinates startCoordinates, Creature creature) {
+    public void moveEntities (BreadthFirstSearch breadthFirstSearch, Map map, Coordinates startCoordinates, Creature creature) {
 
        List<Coordinates> path = breadthFirstSearch.BFS(map,startCoordinates,creature);
 

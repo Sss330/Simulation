@@ -3,6 +3,7 @@ package map;
 import entities.Entity;
 
 import java.util.HashMap;
+import java.util.Set;
 
 
 public class Map {
@@ -17,6 +18,11 @@ public class Map {
     public Boolean getContainsKey (Coordinates coordinates){
        return map.containsKey(coordinates);
     }
+
+    public Set<Coordinates> getKeySet() {
+        return map.keySet();
+    }
+
     public Entity getEntity(Coordinates coordinates) {
         return map.get(coordinates);
     }

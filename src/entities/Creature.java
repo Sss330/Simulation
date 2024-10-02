@@ -13,6 +13,7 @@ public class Creature extends Entity {
 
     public boolean canEat(Map map, Coordinates coordinates) {
         List<Coordinates> adjacentCoordinates = getAdjacentCoordinates(coordinates);
+
         for (Coordinates adjacentCoordinate : adjacentCoordinates) {
             Entity entity = map.getEntity(adjacentCoordinate);
             if (entity instanceof Grass||entity instanceof Herbivore) {
@@ -21,6 +22,8 @@ public class Creature extends Entity {
         }
         return false;
     }
+
+
 
 
     private static List<Coordinates> getAdjacentCoordinates(Coordinates coordinates) {

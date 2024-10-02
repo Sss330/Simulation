@@ -2,8 +2,6 @@ package simulation;
 
 import actions.Actions;
 import actions.move_actions.MoveEntities;
-import actions.spawn.actions.*;
-import actions.spawnActions.*;
 import actions.spawn_actions.*;
 import entities.Creature;
 import entities.Entity;
@@ -39,7 +37,7 @@ public class Simulation {
             for (Coordinates coordinates : creatureCoordinates) {
                 Entity entity = map.getEntity(coordinates);
                 if (entity instanceof Creature) {
-                    moveEntitys.moveEntitys(breadthFirstSearch, map, coordinates, (Creature) entity);
+                    moveEntitys.moveEntities(breadthFirstSearch, map, coordinates, (Creature) entity);
                 }
             }
 
@@ -62,7 +60,7 @@ public class Simulation {
 
     private List<Coordinates> getAllCreatureCoordinates() {
         List<Coordinates> coordinatesList = new ArrayList<>();
-        for (Coordinates coordinates : map.map.keySet()) {
+        for (Coordinates coordinates : map.getKeySet()) {
             Entity currentEntity = map.getEntity(coordinates);
             if (currentEntity instanceof Creature) {
                 coordinatesList.add(coordinates);
