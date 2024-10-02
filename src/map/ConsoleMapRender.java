@@ -1,12 +1,12 @@
 package map;
 
-import entitys.Entity;
-import entitys.Herbivore;
+import entities.Entity;
+import entities.Herbivore;
 import actions.Actions;
-import entitys.Predator;
-import entitys.staticObjects.resources.Grass;
-import entitys.staticObjects.Rock;
-import entitys.staticObjects.Tree;
+import entities.Predator;
+import entities.static_objects.resources.Grass;
+import entities.static_objects.Rock;
+import entities.static_objects.Tree;
 
 public class ConsoleMapRender extends Actions {
 
@@ -16,7 +16,7 @@ public class ConsoleMapRender extends Actions {
     public static final String GRASS = "🍀 ";
     public static final String ROCK = "🗻 ";
     public static final String TREE = "🌳 ";
-    private static final String EMPTY = " . ";
+
 
     StringBuilder stringBuilder = new StringBuilder();
 
@@ -39,20 +39,28 @@ public class ConsoleMapRender extends Actions {
 
     private String selectEmoji(Entity entity) {
 
-        if (entity instanceof Herbivore) {
-            return HERBIVORE;
-        } else if (entity instanceof Predator) {
-            return PREDATOR;
-        } else if (entity instanceof Grass) {
-            return GRASS;
-        } else if (entity instanceof Rock) {
-            return ROCK;
-        } else if (entity instanceof Tree) {
-            return TREE;
-        }
 
-        return GROUND;
+        switch (entity) {
+
+            case Predator p -> {
+                return PREDATOR;
+            }
+            case Herbivore h -> {
+                return HERBIVORE;
+            }
+            case Grass g -> {
+                return GRASS;
+            }
+            case Rock r -> {
+                return ROCK;
+            }
+            case Tree t -> {
+                return TREE;
+            }
+            default -> throw new IllegalStateException("Unexpected value: " + entity);
+        }
     }
+
 }
 
 

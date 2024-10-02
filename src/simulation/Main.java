@@ -1,10 +1,6 @@
 package simulation;
 
 
-import actions.Actions;
-import actions.spawnActions.GrassSpawn;
-import actions.spawnActions.RockSpawn;
-import entitys.Entity;
 import map.ConsoleMapRender;
 import map.Map;
 

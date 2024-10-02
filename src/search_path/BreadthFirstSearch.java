@@ -1,6 +1,6 @@
-package searchPath;
+package search_path;
 
-import entitys.Creature;
+import entities.Creature;
 import map.Coordinates;
 import map.Map;
 

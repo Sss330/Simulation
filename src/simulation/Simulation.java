@@ -1,14 +1,16 @@
 package simulation;
 
 import actions.Actions;
-import actions.moveActions.MoveEntitys;
+import actions.move_actions.MoveEntities;
+import actions.spawn.actions.*;
 import actions.spawnActions.*;
-import entitys.Creature;
-import entitys.Entity;
+import actions.spawn_actions.*;
+import entities.Creature;
+import entities.Entity;
 import map.ConsoleMapRender;
 import map.Coordinates;
 import map.Map;
-import searchPath.BreadthFirstSearch;
+import search_path.BreadthFirstSearch;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -24,7 +26,7 @@ public class Simulation {
     PredatorSpawn predatorSpawn = new PredatorSpawn();
     TreeSpawn treeSpawn = new TreeSpawn();
     BreadthFirstSearch breadthFirstSearch = new BreadthFirstSearch();
-    MoveEntitys moveEntitys = new MoveEntitys();
+    MoveEntities moveEntitys = new MoveEntities();
 
     public void startGame() {
         spawnEntities();
@@ -52,6 +54,7 @@ public class Simulation {
         grassSpawn.spawnGrass(map, actions);
         treeSpawn.spawnTree(map, actions);
         predatorSpawn.spawnPredator(map, actions);
+        herbivoreSpawn.spawnHerbivore(map, actions);
         consoleMapRender.mapRender(map);
     }
 

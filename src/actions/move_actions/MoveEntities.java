@@ -1,14 +1,11 @@
-package actions.moveActions;
-
-import entitys.Creature;
+package actions.move_actions;
+import entities.Creature;
 import map.Coordinates;
 import map.Map;
-import searchPath.BreadthFirstSearch;
-
+import search_path.BreadthFirstSearch;
 import java.util.List;
 
-public class MoveEntitys {
-
+public class MoveEntities {
 
     public void moveEntitys (BreadthFirstSearch breadthFirstSearch, Map map, Coordinates startCoordinates, Creature creature) {
 
@@ -20,11 +17,7 @@ public class MoveEntitys {
             map.deleteEntity(startCoordinates, creature);
             startCoordinates = nextCoordinate;
         }
-       } else {
+       } else
            System.out.println("путь не найден ");
-       }
-
-
-
     }
 }

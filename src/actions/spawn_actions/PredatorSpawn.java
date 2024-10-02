@@ -1,14 +1,12 @@
-package actions.spawnActions;
+package actions.spawn_actions;
 
 import actions.Actions;
-import entitys.Entity;
-import entitys.Herbivore;
-import entitys.Predator;
+import entities.Predator;
 import map.Map;
 
 import java.util.Random;
 
-public class PredatorSpawn extends Actions {
+public class PredatorSpawn {
 
 
         private final Random random = new Random();

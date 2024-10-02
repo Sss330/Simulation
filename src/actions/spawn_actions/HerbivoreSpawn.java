@@ -1,17 +1,10 @@
-package actions.spawnActions;
+package actions.spawn_actions;
 
 import actions.Actions;
-import entitys.Entity;
-import entitys.Herbivore;
-import entitys.Predator;
-import entitys.staticObjects.Rock;
-import entitys.staticObjects.resources.Grass;
-import map.Coordinates;
+import entities.Herbivore;
 import map.Map;
 
-import java.util.Random;
-
-public class HerbivoreSpawn extends Actions {
+public class HerbivoreSpawn {
     Map map = new Map();
     private final int MAP_SIZE = map.getMapSize();
     private final int QUANTITY_HERBIVORE = MAP_SIZE/9;

@@ -1,14 +1,12 @@
-package actions.spawnActions;
+package actions.spawn_actions;
 
 import actions.Actions;
-import entitys.Entity;
-import entitys.staticObjects.Rock;
-import entitys.staticObjects.resources.Grass;
+import entities.static_objects.Rock;
 import map.Map;
 
 import java.util.Random;
 
-public class RockSpawn extends Actions {
+public class RockSpawn  {
     private final Random random = new Random();
     Map map = new Map();
     private final int MAP_SIZE = map.getMapSize();

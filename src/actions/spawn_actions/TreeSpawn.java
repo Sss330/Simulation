@@ -1,8 +1,7 @@
-package actions.spawnActions;
+package actions.spawn_actions;
 
 import actions.Actions;
-import entitys.staticObjects.Tree;
-import entitys.staticObjects.resources.Grass;
+import entities.static_objects.Tree;
 import map.Map;
 
 import java.util.Random;

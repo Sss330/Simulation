@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a8b822b-c148-442b-8c97-b2a36f6a3764" name="Changes" comment="second commit" />
+    <list default="true" id="5a8b822b-c148-442b-8c97-b2a36f6a3764" name="Changes" comment="okolo-final commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/actions/moveActions/MoveEntitys.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/moveActions/MoveEntitys.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/map/ConsoleMapRender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/map/ConsoleMapRender.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -188,7 +192,23 @@
       <option name="project" value="LOCAL" />
       <updated>1727731556204</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="okolo-final commit">
+      <option name="closed" value="true" />
+      <created>1727823153689</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1727823153690</updated>
+    </task>
+    <task id="LOCAL-00016" summary="okolo-final commit">
+      <option name="closed" value="true" />
+      <created>1727823186330</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1727823186330</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -219,7 +239,8 @@
     <MESSAGE value="asd" />
     <MESSAGE value="iojpiuhli" />
     <MESSAGE value="second commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="second commit" />
+    <MESSAGE value="okolo-final commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="okolo-final commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

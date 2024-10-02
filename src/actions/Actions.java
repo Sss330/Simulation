@@ -1,6 +1,6 @@
 package actions;
 
-import entitys.Entity;
+import entities.Entity;
 import map.Coordinates;
 import map.Map;
 
@@ -15,7 +15,7 @@ public class Actions {
         while (true) {
                 int firstRandomCoordinate = random.nextInt(Map.MAP_WIDTH);
                 int secondRandomCoordinate = random.nextInt(Map.MAP_HEIGHT);
-            if (!map.map.containsKey(new Coordinates(firstRandomCoordinate,secondRandomCoordinate))) {
+            if (!map.getContainsKey(new Coordinates(firstRandomCoordinate,secondRandomCoordinate))) {
                 return new Coordinates(firstRandomCoordinate,secondRandomCoordinate);
             }
         }

@@ -1,7 +1,7 @@
-package entitys;
+package entities;
 //живое существо
 
-import entitys.staticObjects.resources.Grass;
+import entities.static_objects.resources.Grass;
 import map.Coordinates;
 import map.Map;
 
@@ -29,7 +29,7 @@ public class Creature extends Entity {
         int x = coordinates.getX();
         int y = coordinates.getY();
 
-        // Добавление соседних координат
+
         adjacentCoordinates.add(new Coordinates(x - 1, y));
         adjacentCoordinates.add(new Coordinates(x + 1, y));
         adjacentCoordinates.add(new Coordinates(x, y - 1));
