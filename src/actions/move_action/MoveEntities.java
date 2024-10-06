@@ -11,13 +11,14 @@ public class MoveEntities {
 
        List<Coordinates> path = breadthFirstSearch.BFS(map,startCoordinates,creature);
 
+
        if (!path.isEmpty()){
         for (Coordinates nextCoordinate : path){
             map.setEntity(nextCoordinate, creature);
             map.deleteEntity(startCoordinates, creature);
             startCoordinates = nextCoordinate;
         }
-       } else
+        } else
            System.out.println("путь не найден ");
     }
 }
