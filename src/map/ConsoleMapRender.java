@@ -10,16 +10,14 @@ import entities.static_objects.Tree;
 
 public class ConsoleMapRender extends Actions {
 
-    public static final String GROUND = "🟫 ";
-    public static final String HERBIVORE = "🐷 ";
-    public static final String PREDATOR = "🐯 ";
-    public static final String GRASS = "🍀 ";
-    public static final String ROCK = "🗻 ";
-    public static final String TREE = "🌳 ";
-
+    public static final String GROUND = "⬛";
+    public static final String HERBIVORE = "🐷";
+    public static final String PREDATOR = "🐯";
+    public static final String GRASS = "🍀";
+    public static final String ROCK = "🗻";
+    public static final String TREE = "🌳";
 
     StringBuilder stringBuilder = new StringBuilder();
-
 
     public void mapRender(Map map) {
         for (int y = Map.MAP_HEIGHT - 1; y > -1; y--) {
@@ -35,10 +33,7 @@ public class ConsoleMapRender extends Actions {
             System.out.println(stringBuilder);
         }
     }
-
-
     private String selectEmoji(Entity entity) {
-
 
         switch (entity) {
 
@@ -60,7 +55,6 @@ public class ConsoleMapRender extends Actions {
             default -> throw new IllegalStateException("Unexpected value: " + entity);
         }
     }
-
 }
 
 

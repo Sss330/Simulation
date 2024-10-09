@@ -16,7 +16,7 @@ public class TreeSpawn {
 
     public void spawnTree(Map map, Actions actions) {
         for (int i = 0; i <= QUANTITY_TREE; i++) {
-            map.setEntity(actions.getEmptyCoordinates(map, null), new Tree());
+            map.setEntity(actions.getRandomEmptyCoordinates(map, null), new Tree());
         }
     }
 }

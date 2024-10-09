@@ -15,7 +15,7 @@ public class GrassSpawn {
 
         public void spawnGrass(Map map, Actions actions) {
             for (int i = 0; i <= QUANTITY_GRASS; i++) {
-                map.setEntity(actions.getEmptyCoordinates(map, null), new Grass());
+                map.setEntity(actions.getRandomEmptyCoordinates(map, null), new Grass());
             }
         }
     }

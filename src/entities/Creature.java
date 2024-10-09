@@ -12,6 +12,7 @@ public class Creature extends Entity {
 
 
     public boolean canEat(Map map, Coordinates coordinates) {
+
         List<Coordinates> adjacentCoordinates = getAdjacentCoordinates(coordinates);
 
         for (Coordinates adjacentCoordinate : adjacentCoordinates) {
@@ -22,16 +23,11 @@ public class Creature extends Entity {
         }
         return false;
     }
-
-
-
-
     private static List<Coordinates> getAdjacentCoordinates(Coordinates coordinates) {
         List<Coordinates> adjacentCoordinates = new ArrayList<>();
 
         int x = coordinates.getX();
         int y = coordinates.getY();
-
 
         adjacentCoordinates.add(new Coordinates(x - 1, y));
         adjacentCoordinates.add(new Coordinates(x + 1, y));
