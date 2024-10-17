@@ -9,10 +9,24 @@ import java.util.Set;
 
 
 public class Map {
-    public static final int MAP_WIDTH = 40;
-    public static final int MAP_HEIGHT = 15;
+    private final int mapWidth;
+    private final int mapHeight;
+
+
+    public Map(int mapHeight, int mapWidth) {
+        this.mapWidth = mapWidth;
+        this.mapHeight = mapHeight;
+    }
 
     private final HashMap<Coordinates, Entity> map = new HashMap<>();
+
+    public int getMapWidth() {
+        return mapWidth;
+    }
+
+    public int getMapHeight() {
+        return mapHeight;
+    }
 
     public void setEntity(Coordinates coordinates, Entity entity) {
         map.put(coordinates, entity);
@@ -39,6 +53,6 @@ public class Map {
     }
 
     public int getMapSize() {
-        return MAP_WIDTH * MAP_HEIGHT;
+        return mapWidth * mapHeight;
     }
 }

@@ -20,9 +20,9 @@ public class ConsoleMapRender extends Actions {
     StringBuilder stringBuilder = new StringBuilder();
 
     public void mapRender(Map map) {
-        for (int y = Map.MAP_HEIGHT - 1; y > -1; y--) {
+        for (int y = map.getMapHeight() - 1; y > -1; y--) {
             stringBuilder.setLength(0);
-            for (int x = 0; x < Map.MAP_WIDTH; x++) {
+            for (int x = 0; x < map.getMapWidth(); x++) {
                 Coordinates coordinates = new Coordinates(x, y);
                 if (map.isCellEmpty(coordinates)) {
                     stringBuilder.append(GROUND);

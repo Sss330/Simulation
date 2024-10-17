@@ -32,7 +32,7 @@ public class BreadthFirstSearch {
             };
 
             for (Coordinates nextCoordinate : directions) {
-                if (areCoordinatesInMapBounds(nextCoordinate) &&
+                if (areCoordinatesInMapBounds(nextCoordinate,map) &&
                         isCellExplorable(checkedCells, queue, nextCoordinate) &&
                         canMove(map, nextCoordinate)) {
 
@@ -43,10 +43,10 @@ public class BreadthFirstSearch {
         }
         return newPath;
     }
-    private boolean areCoordinatesInMapBounds(Coordinates coordinates) {
+    private boolean areCoordinatesInMapBounds(Coordinates coordinates,Map map) {
         int x = coordinates.getX();
         int y = coordinates.getY();
-        return x < Map.MAP_WIDTH && x >= 0 && y < Map.MAP_HEIGHT && y >= 0;
+        return x < map.getMapWidth() && x >= 0 && y < map.getMapHeight()&& y >= 0;
     }
     private boolean isCellExplorable(Set<Coordinates> checkedCells, Queue<Coordinates> queue, Coordinates nextCoordinate) {
         return !checkedCells.contains(nextCoordinate) && !queue.contains(nextCoordinate);

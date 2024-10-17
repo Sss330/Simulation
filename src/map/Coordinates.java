@@ -24,8 +24,8 @@ public class Coordinates {
 
     public Coordinates getEmptyCoordinates(Map map, Entity entity){
         while (true) {
-            int firstRandomCoordinate = random.nextInt(Map.MAP_WIDTH);
-            int secondRandomCoordinate = random.nextInt(Map.MAP_HEIGHT);
+            int firstRandomCoordinate = random.nextInt(map.getMapWidth());
+            int secondRandomCoordinate = random.nextInt(map.getMapHeight());
             if (!map.getContainsKey(new Coordinates(firstRandomCoordinate,secondRandomCoordinate))) {
                 return new Coordinates(firstRandomCoordinate,secondRandomCoordinate);
             }

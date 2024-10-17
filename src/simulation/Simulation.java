@@ -12,7 +12,6 @@ import search_path.BreadthFirstSearch;
 import java.util.ArrayList;
 import java.util.List;
 public class Simulation {
-    Map map = new Map();
     ConsoleMapRender consoleMapRender = new ConsoleMapRender();
     Actions actions = new Actions();
     GrassSpawn grassSpawn = new GrassSpawn();
@@ -22,7 +21,7 @@ public class Simulation {
     TreeSpawn treeSpawn = new TreeSpawn();
     BreadthFirstSearch breadthFirstSearch = new BreadthFirstSearch();
     MoveEntities moveEntities = new MoveEntities();
-
+    Map map = new Map(15,40);
     public void startGame() {
         spawnEntities();
         int iterations = 1;

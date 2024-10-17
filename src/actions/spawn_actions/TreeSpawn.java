@@ -8,14 +8,13 @@ import java.util.Random;
 
 public class TreeSpawn {
 
-    Map map = new Map();
-    private final Random random = new Random();
-    private final int mapSize = map.getMapSize();
-    private final int QUANTITY_TREE = mapSize/15;
 
 
     public void spawnTree(Map map, Actions actions) {
-        for (int i = 0; i <= QUANTITY_TREE; i++) {
+        int mapSize = map.getMapSize();
+        int quantityTree = mapSize / 15;
+
+        for (int i = 0; i <= quantityTree; i++) {
             map.setEntity(actions.getRandomEmptyCoordinates(map, null), new Tree());
         }
     }
